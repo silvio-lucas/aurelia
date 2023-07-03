@@ -1,1 +1,3 @@
-# aurelia-final-01-07-23
+# Projeto Aurelia
+
+Alunos: Thiago / Silvio
