@@ -390,12 +390,6 @@ footer section.copyright i.fa-heart {
     font-size: 1.5rem;
   }
 
-   /* Necessario para o textarea "caber" na tela do celular" */
-   #formulario textarea {
-    height: 100px;
-    width: 100px;
-  }
-
 }
 
 /* Estilos para telas menores que 768px */
@@ -471,12 +465,6 @@ footer section.copyright i.fa-heart {
     height: 300px;
   }
 
-  /* Necessario para o textarea "caber" na tela do celular" */
-  #formulario textarea {
-    height: 100px;
-    width: 100px;
-  }
-
 }
 
 /* Estilo para o formulário */
@@ -515,7 +503,7 @@ footer section.copyright i.fa-heart {
 
 #formulario input,
 #formulario textarea {
-  width: 100%;
+  width: 90%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
