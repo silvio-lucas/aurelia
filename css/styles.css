@@ -455,19 +455,12 @@ footer section.copyright i.fa-heart {
     height: 300px;
   }
 
-  /* Necessario para o textarea "caber" na tela do celular"*/
-  #formulario .main-content {
-    max-width: 200px;
-    margin: 0 auto;
-  }
-
+  /* Necessario para o textarea "caber" na tela do celular" */
   #formulario textarea {
-    width: 50%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-bottom: 10px;
-    font-size: 14px;
+    height: 250px;
+    /*altura desejada aqui */
+    width: 300px;
+    /*largura desejada aqui */
   }
 
 }
