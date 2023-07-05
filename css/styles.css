@@ -387,10 +387,8 @@ footer section.copyright i.fa-heart {
 
    /* Necessario para o textarea "caber" na tela do celular" */
    #formulario textarea {
-    height: 250px;
-    /*altura desejada aqui */
-    width: 300px;
-    /*largura desejada aqui */
+    height: 100px;
+    width: 100px;
   }
 
 }
@@ -465,10 +463,8 @@ footer section.copyright i.fa-heart {
 
   /* Necessario para o textarea "caber" na tela do celular" */
   #formulario textarea {
-    height: 250px;
-    /*altura desejada aqui */
-    width: 300px;
-    /*largura desejada aqui */
+    height: 100px;
+    width: 100px;
   }
 
 }
@@ -519,9 +515,7 @@ footer section.copyright i.fa-heart {
 
 #formulario textarea {
   height: 250px;
-  /*altura desejada aqui */
   width: 400px;
-  /*largura desejada aqui */
 }
 
 #formulario button[type="submit"] {
