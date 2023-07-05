@@ -385,6 +385,14 @@ footer section.copyright i.fa-heart {
     font-size: 1.5rem;
   }
 
+   /* Necessario para o textarea "caber" na tela do celular" */
+   #formulario textarea {
+    height: 250px;
+    /*altura desejada aqui */
+    width: 300px;
+    /*largura desejada aqui */
+  }
+
 }
 
 /* Estilos para telas menores que 768px */
