@@ -505,7 +505,7 @@ footer section.copyright i.fa-heart {
 
 #formulario input,
 #formulario textarea {
-  width: 100%;
+  /*width: 100%; */
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
