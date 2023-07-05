@@ -325,7 +325,101 @@ footer section.copyright i.fa-heart {
 }
 
 
-/* ESTILOS PARA TELAS MENORES QUE 480px */
+/* Estilo para o formulário */
+
+#formulario {
+  background-color: blue;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#formulario .main-content {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#formulario h2 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#formulario form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#formulario label {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#formulario input,
+#formulario textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+#formulario textarea {
+  height: 250px;
+  width: 400px;
+}
+
+#formulario button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#formulario button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/*Animacao*/
+.animate-text {
+  /* animation: move-text 2s infinite alternate; */
+  /* Exemplo:
+  div {
+  animation-name: example;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+} 
+
+  Aqui foi usado animation-name / animation duration / animation iteration-count / animation-direction */
+  animation: move-text 2s 5 alternate;
+}
+
+@keyframes move-text {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(50px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/*  */
 @media (max-width: 480px) {
 
   .main-content {
@@ -393,7 +487,7 @@ footer section.copyright i.fa-heart {
 
 }
 
-/* Estilos para telas menores que 768px */
+/* ESTILOS PARA TELAS MENORES QUE 768PX */
 @media (max-width: 768px) {
 
   /* Estilos para o cabeçalho */
@@ -467,98 +561,4 @@ footer section.copyright i.fa-heart {
     width: 100px;
   }
 
-}
-
-/* Estilo para o formulário */
-
-#formulario {
-  background-color: blue;
-  padding: 20px;
-  border-radius: 5px;
-  text-align: center;
-}
-
-#formulario .main-content {
-  max-width: 400px;
-  margin: 0 auto;
-}
-
-#formulario h2 {
-  font-family: Arial, sans-serif;
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-#formulario form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#formulario label {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-#formulario input,
-#formulario textarea {
-  /*width: 100%; */
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin-bottom: 10px;
-  font-size: 14px;
-}
-
-#formulario textarea {
-  height: 250px;
-  width: 400px;
-}
-
-#formulario button[type="submit"] {
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-#formulario button[type="submit"]:hover {
-  background-color: #45a049;
-}
-
-/*Animacao*/
-.animate-text {
-  /* animation: move-text 2s infinite alternate; */
-  /* Exemplo:
-  div {
-  animation-name: example;
-  animation-duration: 5s;
-  animation-timing-function: linear;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-} 
-
-  Aqui foi usado animation-name / animation duration / animation iteration-count / animation-direction */
-  animation: move-text 2s 5 alternate;
-}
-
-@keyframes move-text {
-  0% {
-    transform: translateX(0);
-  }
-
-  50% {
-    transform: translateX(50px);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
 }
