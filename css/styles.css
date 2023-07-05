@@ -328,6 +328,11 @@ footer section.copyright i.fa-heart {
 /* ESTILOS PARA TELAS MENORES QUE 480px */
 @media (max-width: 480px) {
 
+  #formulario textarea {
+    height: 250px;
+    width: 350px;
+  }
+
   .main-content {
     display: flex;
     flex-direction: column;
@@ -395,6 +400,11 @@ footer section.copyright i.fa-heart {
 
 /* Estilos para telas menores que 768px */
 @media (max-width: 768px) {
+
+  #formulario textarea {
+    height: 250px;
+    width: 350px;
+  }
 
   /* Estilos para o cabeçalho */
   .menu-content {
