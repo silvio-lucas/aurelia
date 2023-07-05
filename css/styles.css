@@ -454,6 +454,12 @@ footer section.copyright i.fa-heart {
     width: 100%;
     height: 300px;
   }
+
+  #formulario .main-content {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
 }
 
 /* Estilo para o formulário */
