@@ -71,6 +71,8 @@ p {
   max-width: 135rem;
   margin: 0 auto;
   padding: 8rem 3rem;
+  /* depuracao de erro */
+  padding-bottom: 0;
   position: relative;
   z-index: 1;
   color: #ffffff;
